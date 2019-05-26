@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnJohnAThing", "LearnJohnAThing\LearnJohnAThing.csproj", "{FC500FE1-18A3-4ACA-8B3D-8E3E7F675794}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LearnJohnAThing.GameData", "GameData\LearnJohnAThing.GameData.sqlproj", "{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnJohnAThing.Data", "LearnJohnAThing.Data\LearnJohnAThing.Data.csproj", "{522FCF8C-6F94-40AF-A300-BBFF07D1622C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{FC500FE1-18A3-4ACA-8B3D-8E3E7F675794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC500FE1-18A3-4ACA-8B3D-8E3E7F675794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC500FE1-18A3-4ACA-8B3D-8E3E7F675794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{522FCF8C-6F94-40AF-A300-BBFF07D1622C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522FCF8C-6F94-40AF-A300-BBFF07D1622C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522FCF8C-6F94-40AF-A300-BBFF07D1622C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522FCF8C-6F94-40AF-A300-BBFF07D1622C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

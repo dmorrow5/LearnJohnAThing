@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Server=DESKTOP-7AJETIA\SQLEXPRESS;Database=GameData;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer
