@@ -1,25 +1,10 @@
-﻿using LearnJohnAThing.Characters.Utility;
-using System;
+﻿using System;
 
-namespace LearnJohnAThing.Characters.Hero
+namespace LearnJohnAThing.Data
 {
-    public class Hero
+    public partial class Heroes
     {
         #region Properties
-        private string _name = "Some Dude";
-        public string Name
-        {
-            get
-            {
-                return this._name;
-            }
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                    this._name = value;
-            }
-        }
-
         private int _hp = 20;
         public int HP
         {
@@ -48,13 +33,13 @@ namespace LearnJohnAThing.Characters.Hero
         #endregion
 
         #region Constructors
-        public Hero() {
+        public Heroes() {
             this._skills[0] = new Skill();
         }
 
-        public Hero(string name, int hp, Skill[] skills)
+        public Heroes(string name, int hp, Skill[] skills)
         {
-            this._name = name;
+            this.Name = name;
             this._hp = hp;
             this._skills = skills;
         }

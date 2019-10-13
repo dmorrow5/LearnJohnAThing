@@ -1,6 +1,4 @@
-﻿using LearnJohnAThing.Characters.Utility;
-
-namespace LearnJohnAThing.Characters.Monsters
+﻿namespace LearnJohnAThing.Data
 {
     public interface IMonster
     {

@@ -35,12 +35,12 @@ namespace LearnJohnAThing
 
             LoadData();
 
-            //_hero.Initialize();
+            _hero.Initialize();
             SelectMonster();
 
             while (_running)
             {
-                //Combat.StartBattle(_hero, _monsters[(int)_selectedMonster]);
+                Combat.StartBattle(_hero, _monsters[(int)_selectedMonster]);
 
                 Console.Clear();
                 Console.WriteLine("Would you like to battle again? (Y/N)");

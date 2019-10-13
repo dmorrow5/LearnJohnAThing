@@ -137,14 +137,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Characters\Hero\Hero.cs" />
-    <Compile Include="Characters\Interfaces\IMonster.cs" />
-    <Compile Include="Characters\Monsters\BaseMonster.cs" />
-    <Compile Include="Characters\Monsters\Goblin.cs" />
-    <Compile Include="Characters\Monsters\Golem.cs" />
-    <Compile Include="Characters\Enums\Monsters.cs" />
-    <Compile Include="Characters\Monsters\Skeleton.cs" />
-    <Compile Include="Characters\Utility\Skill.cs" />
     <Compile Include="Mechanics\Combat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -181,12 +173,8 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GameData\LearnJohnAThing.GameData.sqlproj">
-      <Project>{0b75ec92-98a7-4d82-8fd1-a995853bbb8f}</Project>
-      <Name>LearnJohnAThing.GameData</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LearnJohnAThing.Data\LearnJohnAThing.Data.csproj">
-      <Project>{522fcf8c-6f94-40af-a300-bbff07d1622c}</Project>
+      <Project>{ef8007c7-0894-42fe-bc18-102122a1e032}</Project>
       <Name>LearnJohnAThing.Data</Name>
     </ProjectReference>
   </ItemGroup>

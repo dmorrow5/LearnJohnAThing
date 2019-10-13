@@ -1,8 +1,6 @@
-﻿using LearnJohnAThing.Characters.Utility;
-
-namespace LearnJohnAThing.Characters.Monsters
+﻿namespace LearnJohnAThing.Data
 {
-    public class Skeleton : BaseMonster
+    public class Skeleton : Monsters
     {
         #region Constructors
         public Skeleton()
@@ -10,7 +8,7 @@ namespace LearnJohnAThing.Characters.Monsters
             this.Name = "Skeleton";
             this.MaxHP = 7;
             this.HP = 7;
-            this.Skill1 = new Skill(3);
+            //this.Skill1 = new Skill(3);
         }
         #endregion
     }

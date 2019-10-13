@@ -1,17 +1,10 @@
-﻿using LearnJohnAThing.Characters.Utility;
-
-namespace LearnJohnAThing.Characters.Monsters
+﻿namespace LearnJohnAThing.Data
 {
-    public abstract class BaseMonster : IMonster
+    public partial class Monsters
     {
         #region Properties
-        public string Name { get; set; }
         public int MaxHP { get; set; }
         public int HP { get; set; }
-        public Skill Skill1 { get; set; } = new Skill();
-        public Skill Skill2 { get; set; }
-        public Skill Skill3 { get; set; }
-        public Skill Skill4 { get; set; }
         #endregion
 
         #region Methods

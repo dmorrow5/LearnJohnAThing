@@ -1,8 +1,6 @@
-﻿using LearnJohnAThing.Characters.Utility;
-
-namespace LearnJohnAThing.Characters.Monsters
+﻿namespace LearnJohnAThing.Data
 {
-    public class Golem : BaseMonster
+    public class Golem : Monsters
     {
         #region Constructors
         public Golem()
@@ -10,7 +8,7 @@ namespace LearnJohnAThing.Characters.Monsters
             this.Name = "Golem";
             this.MaxHP = 9;
             this.HP = 9;
-            this.Skill1 = new Skill(1);
+            //this.Skill1 = new Skill(1);
         }
         #endregion
     }

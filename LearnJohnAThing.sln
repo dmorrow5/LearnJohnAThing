@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnJohnAThing", "LearnJoh
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LearnJohnAThing.GameData", "GameData\LearnJohnAThing.GameData.sqlproj", "{0B75EC92-98A7-4D82-8FD1-A995853BBB8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnJohnAThing.Data", "LearnJohnAThing.Data\LearnJohnAThing.Data.csproj", "{522FCF8C-6F94-40AF-A300-BBFF07D1622C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnJohnAThing.Data2", "LearnJohnAThing.Data\LearnJohnAThing.Data2.csproj", "{522FCF8C-6F94-40AF-A300-BBFF07D1622C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnJohnAThing.Data", "LearnJohnAThing.Data\LearnJohnAThing.Data.csproj", "{EF8007C7-0894-42FE-BC18-102122A1E032}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{522FCF8C-6F94-40AF-A300-BBFF07D1622C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522FCF8C-6F94-40AF-A300-BBFF07D1622C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522FCF8C-6F94-40AF-A300-BBFF07D1622C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8007C7-0894-42FE-BC18-102122A1E032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8007C7-0894-42FE-BC18-102122A1E032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8007C7-0894-42FE-BC18-102122A1E032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8007C7-0894-42FE-BC18-102122A1E032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
